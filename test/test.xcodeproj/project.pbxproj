@@ -16,8 +16,8 @@
 		8D7E54071A14476400D19DFF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E54061A14476400D19DFF /* testTests.m */; };
 		8D7E542C1A14AC4D00D19DFF /* ComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E54281A14AC4D00D19DFF /* ComboBox.m */; };
 		8D7E542D1A14AC4D00D19DFF /* ComboBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E54291A14AC4D00D19DFF /* ComboBox.xib */; };
-		8D7E542E1A14AC4D00D19DFF /* down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E542A1A14AC4D00D19DFF /* down_arrow@2x.png */; };
-		8D7E542F1A14AC4D00D19DFF /* down_arrow_highlighed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E542B1A14AC4D00D19DFF /* down_arrow_highlighed@2x.png */; };
+		8D7E542E1A14AC4D00D19DFF /* combo_down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E542A1A14AC4D00D19DFF /* combo_down_arrow@2x.png */; };
+		8D7E542F1A14AC4D00D19DFF /* combo_down_arrow_highlighed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E542B1A14AC4D00D19DFF /* combo_down_arrow_highlighed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		8D7E54271A14AC4D00D19DFF /* ComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBox.h; sourceTree = "<group>"; };
 		8D7E54281A14AC4D00D19DFF /* ComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBox.m; sourceTree = "<group>"; };
 		8D7E54291A14AC4D00D19DFF /* ComboBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComboBox.xib; sourceTree = "<group>"; };
-		8D7E542A1A14AC4D00D19DFF /* down_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow@2x.png"; sourceTree = "<group>"; };
-		8D7E542B1A14AC4D00D19DFF /* down_arrow_highlighed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_highlighed@2x.png"; sourceTree = "<group>"; };
+		8D7E542A1A14AC4D00D19DFF /* combo_down_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "combo_down_arrow@2x.png"; sourceTree = "<group>"; };
+		8D7E542B1A14AC4D00D19DFF /* combo_down_arrow_highlighed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "combo_down_arrow_highlighed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +135,8 @@
 				8D7E54271A14AC4D00D19DFF /* ComboBox.h */,
 				8D7E54281A14AC4D00D19DFF /* ComboBox.m */,
 				8D7E54291A14AC4D00D19DFF /* ComboBox.xib */,
-				8D7E542A1A14AC4D00D19DFF /* down_arrow@2x.png */,
-				8D7E542B1A14AC4D00D19DFF /* down_arrow_highlighed@2x.png */,
+				8D7E542A1A14AC4D00D19DFF /* combo_down_arrow@2x.png */,
+				8D7E542B1A14AC4D00D19DFF /* combo_down_arrow_highlighed@2x.png */,
 			);
 			path = ComboBox;
 			sourceTree = "<group>";
@@ -222,11 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7E53F61A14476400D19DFF /* Main.storyboard in Resources */,
-				8D7E542F1A14AC4D00D19DFF /* down_arrow_highlighed@2x.png in Resources */,
+				8D7E542F1A14AC4D00D19DFF /* combo_down_arrow_highlighed@2x.png in Resources */,
 				8D7E53FB1A14476400D19DFF /* LaunchScreen.xib in Resources */,
 				8D7E542D1A14AC4D00D19DFF /* ComboBox.xib in Resources */,
 				8D7E53F81A14476400D19DFF /* Images.xcassets in Resources */,
-				8D7E542E1A14AC4D00D19DFF /* down_arrow@2x.png in Resources */,
+				8D7E542E1A14AC4D00D19DFF /* combo_down_arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

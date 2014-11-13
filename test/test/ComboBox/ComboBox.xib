@@ -25,7 +25,7 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow.png" highlightedImage="down_arrow_highlighed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ade-HS-8Ll">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="combo_down_arrow.png" highlightedImage="combo_down_arrow_highlighed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ade-HS-8Ll">
                     <rect key="frame" x="137" y="0.0" width="30" height="30"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -51,7 +51,7 @@
         </view>
     </objects>
     <resources>
-        <image name="down_arrow.png" width="125" height="125"/>
-        <image name="down_arrow_highlighed.png" width="125" height="125"/>
+        <image name="combo_down_arrow.png" width="125" height="125"/>
+        <image name="combo_down_arrow_highlighed.png" width="125" height="125"/>
     </resources>
 </document>
